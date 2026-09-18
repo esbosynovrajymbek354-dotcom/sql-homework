@@ -9,3 +9,4 @@
 
 -- III БӨЛІМ: INSERT деректер
 -- Test GitHub Actions
+-- Trigger new workflow
