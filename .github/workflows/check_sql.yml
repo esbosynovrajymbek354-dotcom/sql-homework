@@ -45,11 +45,11 @@ jobs:
           PGPASSWORD: testpass
 
         run: |
-          psql -h localhost -U testuser -d testdb -f solution/homework.sql
+          psql -v ON_ERROR_STOP=1 -h localhost -U testuser -d testdb -f solution/homework.sql
 
       - name: Тест скриптін іске қосу
         env:
           PGPASSWORD: testpass
 
         run: |
-          psql -h localhost -U testuser -d testdb -f tests/check_ddl.sql
+          psql -v ON_ERROR_STOP=1 -h localhost -U testuser -d testdb -f tests/check_ddl.sql
