@@ -8,3 +8,4 @@
 -- II БӨЛІМ: ALTER TABLE
 
 -- III БӨЛІМ: INSERT деректер
+-- Test GitHub Actions
